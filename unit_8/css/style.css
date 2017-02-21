@@ -107,15 +107,24 @@ nav {
   float: none;
   width: 100%;
  }
- article {
+
+ #tagline {
+    float: none;
+    width: 90%;
+    height: 20em;
+ }
+
+ #info {
     float: none;
     width: 90%;
  }
- aside{
+
+ #two_column {
     float: none;
     width: 90%;
  }
- div{
+
+ #services {
     float: none;
     width: 90%;
  }
