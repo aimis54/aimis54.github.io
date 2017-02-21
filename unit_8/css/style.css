@@ -8,6 +8,7 @@
 body {
 	background-color: 
 	color: #05405E;
+    font-size: 16px;
 }
 
 h1 {
@@ -24,6 +25,7 @@ h1 {
 header {
 	background-color: #FFF;
 	padding: 20px;
+    width: 100%;
 }
 
 p {
@@ -100,8 +102,21 @@ div {
     padding: 20px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
 nav {
   float: none;
+  width: 100%;
+ }
+ article {
+    float: none;
+    width: 90%;
+ }
+ aside{
+    float: none;
+    width: 90%;
+ }
+ div{
+    float: none;
+    width: 90%;
  }
 }
